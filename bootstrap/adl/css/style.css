@@ -1,0 +1,35 @@
+.container{
+    font-family: "Roboto";
+}
+.bg-success{
+    background-color: #28A745!important;
+}
+.formulario{
+    width: 90%;
+}
+.footer img{
+    width: 82px;
+    height: 24px;
+}
+.barra img{
+    width: 86px;
+    height: 25px;
+}
+h5{
+    font: medium ;
+    font-weight: 300;
+    color: #212529;
+}
+.precio{
+    font-size: 16pt;
+}
+strong{
+    font-size: 20pt;
+    font-weight: 500;
+    color: #28A745;
+}
+h6{
+    font-family: "Roboto Light";
+    font-size: 16pt;
+    width: 70%;
+}

@@ -1,0 +1,52 @@
+body {
+    font-family:'Times New Roman', Times, serif
+}
+.header {
+    padding: 6em;
+    font-size: 1em;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header h1 {
+    margin: 0px;
+    font-size: 4em;
+    font-weight: 400;
+    color: beige;
+    text-align: center;
+}
+.header p {
+    margin: 0.5em;
+    font-size: 1.5em;
+    color: beige;
+    text-align: center;
+}
+body {
+    background-color: beige;
+}
+.product {
+    width: 80%;
+    margin: auto;
+}
+.product td {
+    width: 50%;
+    padding: 2em;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+.product img {
+    width: 50%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 4px;
+}
+.footer {
+    height: 2.5em;
+    line-height: 2em;
+    text-align: center;
+    background-color: green;
+    color: beige;
+    font-weight: 600;
+}
