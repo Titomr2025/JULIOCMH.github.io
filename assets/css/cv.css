@@ -8,6 +8,7 @@ body {
     background: #082942 !important;
     width: 100%;
 }
+
 .header {
     height: 70px;
     position: fixed;
@@ -19,6 +20,7 @@ body {
     border-radius: 50px;
     border: 2px solid #00acf080;
 }
+
 .logo {
     font-size: 25px;
     color: #ededed;
@@ -80,6 +82,7 @@ body {
     overflow: hidden;
     transition: max-height 0.5s;
 }
+
 .show {
     height: auto;
     margin-top: 20px;
@@ -92,16 +95,20 @@ body {
     overflow: hidden;
     transition: max-height 0.5s;
 }
-.contenedor{
+
+.contenedor {
     margin-top: 100px;
 }
+
 .profile {
     margin-bottom: 25px;
 }
+
 .profile .jobster-user-info {
     display: inline-block;
     width: 100%;
 }
+
 .profile .jobster-user-info .profile-avatar {
     position: relative;
     height: 115px;
@@ -109,9 +116,11 @@ body {
     border-radius: 100%;
     display: inline-block;
 }
+
 .profile .jobster-user-info .profile-avatar img {
     border-radius: 100%;
 }
+
 .profile .jobster-user-info .profile-avatar i {
     font-size: 16px;
     color: #21c87a;
@@ -130,12 +139,15 @@ body {
 .about-candidate {
     padding: 25px 0px;
 }
+
 .about-candidate .candidate-info {
     margin-bottom: 20px;
 }
-.resume-base{
+
+.resume-base {
     border-radius: 20px;
 }
+
 .resume-experience {
     padding-left: 10px;
     padding-top: 60px;
@@ -145,6 +157,7 @@ body {
     background: #f6f6f6;
     border-radius: 20px;
 }
+
 .resume-experience:before {
     position: absolute;
     left: -40%;
@@ -156,6 +169,7 @@ body {
     z-index: -1;
     top: 0;
 }
+
 .resume-experience .jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle {
     border-color: #f6f6f6;
 }
@@ -178,9 +192,11 @@ body {
         padding-bottom: 30px;
         padding-right: 15px;
     }
+
     .resume-experience:before {
         content: none;
     }
+
     .secondary-menu ul li {
         display: inline-block;
     }
@@ -200,10 +216,12 @@ body {
     width: 100%;
     display: inline-block;
 }
+
 .progress .progress-bar {
     height: 3px;
     background: #21c87a;
 }
+
 .progress .progress-bar-title {
     position: absolute;
     left: 0;
@@ -212,6 +230,7 @@ body {
     font-size: 14px;
     font-weight: 600;
 }
+
 .progress .progress-bar-number {
     position: absolute;
     right: 0;
@@ -223,6 +242,7 @@ body {
 .jobster-candidate-timeline {
     position: relative;
 }
+
 .jobster-candidate-timeline:before {
     content: "";
     position: absolute;
@@ -249,6 +269,7 @@ body {
     left: 9px;
     position: absolute;
 }
+
 .jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle:before {
     content: "";
     position: absolute;
@@ -259,7 +280,8 @@ body {
     height: 2px;
     background-color: #eeeeee;
 }
-.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle > i {
+
+.jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-cricle>i {
     font-size: 15px;
     top: -8px;
     left: -7px;
@@ -272,10 +294,12 @@ body {
     vertical-align: top;
     padding: 5px 0 0 70px;
 }
+
 .jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-info h6 {
     color: #21c87a;
     margin: 5px 0 0px;
 }
+
 .jobster-candidate-timeline .jobster-timeline-item .jobster-timeline-info span {
     color: #212529;
     font-size: 13px;
@@ -297,6 +321,7 @@ body {
     position: relative;
     margin-bottom: 20px;
 }
+
 .jobster-candidate-timeline .jobster-timeline-icon i {
     font-size: 16px;
     color: #212529;
@@ -305,7 +330,8 @@ body {
 .select2-container--default .select2-selection--single .select2-selection__arrow {
     top: 16px;
 }
-img{
+
+img {
     width: 150px;
     border: 2px solid;
 }
@@ -317,6 +343,7 @@ img{
     border-radius: 50px;
     border: 2px solid #00acf080;
 }
+
 .footer h5 {
     font-size: 20px;
     color: #ededed;
