@@ -356,3 +356,7 @@ img {
 .iconos i {
     font-size: 25px;
 }
+.iconos :hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
